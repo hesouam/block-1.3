@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu">
+        <button class="button button__burger button--red">
+            <img class="img__button--red" src="svg/icon.svg" alt="">
+        </button>
+        
+        <a href="#" class="link__logo"><img class="logo menu__logo" src="png/Group.png" alt=""></a>
+        
+        <ul class="menu__block1">
+            <li>
+                <button class="button button__phone button--red">
+                    <img class="img__button--red" src="svg/phone.svg" alt="">
+                </button>
+            </li>
+
+            <li>
+                <button class="button button__chat button--red">
+                    <img src="svg/chat.svg" alt="" class="img__button--red">
+                </button>
+            </li>
+
+            <li>
+                <button class="button button__profile button--red">
+                    <img src="svg/profile.svg" alt="" class="img__button--red">
+                </button>
+            </li>
+        </ul>
+
+        <ul class="menu__block2">
+            <li>
+                <button class="button button__repair button--red">
+                    <img class="img__button--red" src="svg/repair.svg" alt="">
+                </button>
+            </li>
+
+            <li>
+                <button class="button button__checkstatus button--red">
+                    <img class="img__button--red" src="svg/checkstatus.svg" alt="">
+                </button>
+            </li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <div class="services">
+            <div class="services__highlight-and-title">
+                <img class="highlight" src="png/highlight.png" alt="">
+                <h1 class="services__title">Услуги и сервисы</h1>
+            </div>
+            <ul class="services__actions">
+                <li class="services__actions-repair">
+                    <span class="services__actions-repair-text action-text">Оставить заявку</span>
+                    <button class="button button__repair button--red">
+                        <img src="svg/repair.svg">
+                    </button>
+                </li>
+
+                <li class="services__actions-checkstatus">
+                    <span class="services__actions-checkstatus-text action-text">Статус ремонта</span>
+                    <button class="button button__checkstatus button--red">
+                        <img src="svg/checkstatus.svg">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="navigation">
+            <ul class="navigation__items items">
+			    <li class="item item__active"><a href="#">Ремонтируемые устройства</a></li>
+			    <li class="item"><a href="#">Дополнительные услуги</a></li>
+		        <li class="item"><a href="#">Цены на услуги</a></li>
+		        <li class="item"><a href="#">Адреса сервисных центров</a></li>
+		        <li class="item"><a href="#">Специальные цены</a></li>
+                <li class="item"><a href="#">Отзывы</a></li>
+            </ul>
+        </nav>
+
+        <article class="content-block">
+            <div class="content-block__text-end-expend">
+                <div class="text content-block__text">
+                    <p>
+                        Мы являемся авторизованным 
+                        сервисным центром по ремонту 
+                        техники Dell. Только у нас вы 
+                        можете отремонтировать свой 
+                        ноутбук Dell с официальной 
+                        гарантией производителя.
+                    </p>
+
+                    <p class="content-block__text-active-767">
+                        Мы успешно работаем с 1992 года и
+                        заслужили репутацию надежного партнера<span class="content-block__text-active-1120">, 
+                        что подтверждает большое количество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются 
+                        по рекомендациям и, в свою очередь, советуют 
+                        нас родным и близким.</span>
+                    </p>
+                </div>
+
+                <a class="expend"><img src="png/expand.png">Читать далее</a>
+            </div>
+            <img class="img content-block__img" src="png/SignBoard.png" alt="">
+        </article>
+    </main>
+</body>
+</html>
